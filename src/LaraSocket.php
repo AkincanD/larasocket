@@ -2,8 +2,8 @@
 
 namespace Akincand\LaraSocket;
 
-use Akincand\LaraSocket\SocketConnectionException;
-use Akincand\LaraSocket\SocketIOException;
+use Akincand\LaraSocket\Exception\SocketConnectionException;
+use Akincand\LaraSocket\Exception\SocketIOException;
 
 use Illuminate\Database\Eloquent\Collection;
 use Illuminate\Http\JsonResponse;
