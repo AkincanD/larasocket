@@ -1,3 +1,6 @@
 howto.txt
 .vscode
-vendor
+/vendor
+composer.phar
+composer.lock
+.DS_Store
