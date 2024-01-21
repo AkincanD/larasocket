@@ -7,7 +7,7 @@ use Illuminate\Support\Facades\Facade;
 /**
  * Class ResponseBuilder.
  */
-class LaraSocket extends Facade
+class Socket extends Facade
 {
     public static function getFacadeAccessor(): string
     {

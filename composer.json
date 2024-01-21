@@ -5,7 +5,7 @@
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Akincand\\Larasocket\\": "src/"
+            "AkincanD\\Larasocket\\": "src/"
         }
     },
     "authors": [
@@ -18,10 +18,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Akincand\\LaraSocket\\LaraSocketServiceProvider"
+                "AkincanD\\LaraSocket\\LaraSocketServiceProvider"
             ],
             "aliases": {
-                "Socket": "Akincand\\LaraSocket\\Facades\\LaraSocket"
+                "Socket": "AkincanD\\LaraSocket\\Facades\\Socket"
             }
         }
     },
