@@ -15,6 +15,16 @@
         }
     ],
     "minimum-stability": "stable",
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Akincand\\LaraSocket\\LaraSocketServiceProvider"
+            ],
+            "aliases": {
+                "Socket": "Akincand\\LaraSocket\\Facades\\LaraSocket"
+            }
+        }
+    },
     "require-dev": {
         "orchestra/testbench": "^8.21"
     }
