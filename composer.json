@@ -1,0 +1,21 @@
+{
+    "name": "akincand/larasocket",
+    "description": "Socket connection for Laravel",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Akincand\\Larasocket\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Akın",
+            "email": "akincand@yandex.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require-dev": {
+        "orchestra/testbench": "^8.21"
+    }
+}
