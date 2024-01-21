@@ -1,6 +1,6 @@
 <?php
 
-namespace AkincanD\LaraSocket\Facades;
+namespace Akincand\LaraSocket\Facades;
 
 use Illuminate\Support\Facades\Facade;
 

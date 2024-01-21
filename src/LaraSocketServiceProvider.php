@@ -1,9 +1,7 @@
 <?php
 
-namespace AkincanD\LaraSocket;
+namespace Akincand\LaraSocket;
 
-use Illuminate\Auth\Events\Logout;
-use Illuminate\Session\SessionManager;
 use Illuminate\Support\ServiceProvider;
 
 class LaraSocketServiceProvider extends ServiceProvider

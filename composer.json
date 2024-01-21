@@ -3,9 +3,15 @@
     "description": "Socket connection for Laravel",
     "type": "library",
     "license": "MIT",
+    "keywords": [
+        "laravel",
+        "socket",
+        "socket.io",
+        "socket.io-client"
+    ],
     "autoload": {
         "psr-4": {
-            "AkincanD\\Larasocket\\": "src/"
+            "Akincand\\Larasocket\\": "src/"
         }
     },
     "authors": [
@@ -18,10 +24,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "AkincanD\\LaraSocket\\LaraSocketServiceProvider"
+                "Akincand\\LaraSocket\\LaraSocketServiceProvider"
             ],
             "aliases": {
-                "Socket": "AkincanD\\LaraSocket\\Facades\\Socket"
+                "Socket": "Akincand\\LaraSocket\\Facades\\Socket"
             }
         }
     },

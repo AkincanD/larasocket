@@ -1,6 +1,6 @@
 <?php
 
-namespace AkincanD\LaraSocket;
+namespace Akincand\LaraSocket;
 
 class SocketIOException extends \Exception
 {
