@@ -17,7 +17,6 @@ class LaraSocketServiceProvider extends ServiceProvider
     public function register()
     {
         $this->app->bind('larasocket', LaraSocket::class);
-        $this->mergeConfigFrom(__DIR__ . './../config/larasocket.php', 'larasocket');
     }
 
     /**
@@ -37,11 +36,6 @@ class LaraSocketServiceProvider extends ServiceProvider
      */
     protected function configurePublishing()
     {
-        if ($this->app->runningInConsole()) {
-            $this->publishes(
-                [__DIR__ . './../config/larasocket.php' => config_path('larasocket.php')],
-                'larasocket'
-            );
-        }
+        $this->publishes([__DIR__ . '/../config/larasocket.php' => config_path('larasocket.php')], 'config');
     }
 }
